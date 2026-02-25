@@ -1,0 +1,3 @@
+[console_scripts]
+hg = humanguard.cli:app
+humanguard = humanguard.cli:app

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/humanguard/__init__.py
+src/humanguard/cli.py
+src/humanguard.egg-info/PKG-INFO
+src/humanguard.egg-info/SOURCES.txt
+src/humanguard.egg-info/dependency_links.txt
+src/humanguard.egg-info/entry_points.txt
+src/humanguard.egg-info/requires.txt
+src/humanguard.egg-info/top_level.txt

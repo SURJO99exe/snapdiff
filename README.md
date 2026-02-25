@@ -1,0 +1,32 @@
+# HumanGuard 🛡️
+
+**HumanGuard** is a unique CLI tool designed to protect you from **Social Engineering** and improve your **Daily Digital Safety**. 
+
+Most security tools focus on firewalls; **HumanGuard** focuses on the "Human Firewall".
+
+## Features
+
+- 🕵️ **Social Engineering Check**: Analyze suspicious messages for phishing indicators.
+- 🔗 **URL Safety**: Quick check for malicious URL patterns.
+- 🛡️ **Daily Safety Tip**: Get a fresh tip every day to stay safe online.
+- 🔑 **Password Strength**: Local-only analysis of password complexity.
+- 📚 **Learning Modules**: Interactive scenarios to learn how hackers manipulate people.
+
+## Installation
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+```bash
+# Get a daily safety tip
+hg tip
+
+# Analyze a suspicious message
+hg check "Hey, I'm from your bank. Click here to reset your password."
+
+# Check a URL
+hg url "https://google-login-secure-update.com"
+```

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanguard"
+version = "1.0.0"
+description = "Social Engineering Defense & Daily Digital Safety CLI"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "SURJO99exe" }]
+license = { text = "MIT" }
+dependencies = [
+  "rich>=13.0.0",
+  "typer>=0.9.0",
+  "shellingham>=1.5.0",
+]
+
+[project.scripts]
+hg = "humanguard.cli:app"
+humanguard = "humanguard.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
